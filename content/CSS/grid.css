@@ -1,7 +1,7 @@
 .container-grid{
     display: grid;
-    height: 650px;
-    width: 650px;
+    height: 500px;
+    width: 500px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr; 
     transform: rotate(45deg); 
@@ -91,14 +91,14 @@
     color: white;
 }
 .symbol{
-    margin: 40px 0 0 30px;    
+    margin: 30px 0 0 20px;    
     color: rgb(0, 0, 0);
     transition: ease 0.5s;
 }
 
 
 .container .material-symbols-outlined {
-    font-size: 60px;
+    font-size: 50px;
 }
 .box1:hover .symbol{
     color: var(--secondary-color);
@@ -124,8 +124,8 @@
 }
 
 .logo{
-    margin: 55px 0 0 12px;
-    height: 80px;
+    margin: 40px 0 0 8px;
+    height: 60px;
     
 }
 .margin{
