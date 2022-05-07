@@ -24,6 +24,153 @@
     background-image: url(./img/104414.jpg);
     background-size: cover;
 }
+
+
+.box-header-4::before{
+    display: none;
+    content: '';
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+    left: 0;
+    top:95px;
+    margin-top: 15px;
+    transition: all ease 0.5s;
+    background-image: url();
+
+
+    background-image: url(./img/10441.png.jpg);
+    background-size: cover;
+    animation: laudas1 10s infinite;
+  }
+  
+  @keyframes laudas1 {
+
+    0% {
+        
+      
+      background-image: url(./img/104412.jpg);
+    }
+    10%{
+
+        background-image: url(./img/104413.jpg);
+    }
+
+    20%{
+        background-image: url(./img/104414.jpg);
+    }
+    
+    
+    30% {
+      
+        background-image: url(./img/10441.png.jpg);
+      
+    }
+    40% {
+        
+      
+        background-image: url(./img/104412.jpg);
+      }
+      50%{
+  
+          background-image: url(./img/104413.jpg);
+      }
+  
+      60%{
+          background-image: url(./img/104414.jpg);
+      }
+      
+      
+      100% {
+        
+          background-image: url(./img/10441.png.jpg);
+        
+      }
+  }
+
+.box-header-4:hover::before{
+    display: inline;
+}
+
+
+/* jjjjjjjjjjjjjjjjjjj */
+
+.box-header-2::before{
+    display: none;
+    content: '';
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+    left: 0;
+    top:95px;
+    margin-top: 15px;
+    transition: all ease 0.5s;
+    background-image: url();
+
+
+    background-image: url(./img/10441.png.jpg);
+    background-size: cover;
+    animation: laudas1 10s infinite;
+  }
+  
+  @keyframes laudas1 {
+
+    0% {
+        
+      
+      background-image: url(./img/104412.jpg);
+    }
+    10%{
+
+        background-image: url(./img/104413.jpg);
+    }
+
+    20%{
+        background-image: url(./img/104414.jpg);
+    }
+    
+    
+    30% {
+      
+        background-image: url(./img/10441.png.jpg);
+      
+    }
+    40% {
+        
+      
+        background-image: url(./img/104412.jpg);
+      }
+      50%{
+  
+          background-image: url(./img/104413.jpg);
+      }
+  
+      60%{
+          background-image: url(./img/104414.jpg);
+      }
+      
+      
+      100% {
+        
+          background-image: url(./img/10441.png.jpg);
+        
+      }
+  }
+
+.box-header-2:hover::before{
+    display: inline;
+}
+
+
+
+h3{
+    font-size: 15px;
+    margin: 37px 0 0 8px;
+}
 .box1{
     border: 2px solid var(--border-color);
     border-radius: 5px;
