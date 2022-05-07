@@ -1,7 +1,7 @@
 .container-grid{
     display: grid;
-    height: 80vh;
-    width: 80vh;
+    height: 650px;
+    width: 650px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr; 
     transform: rotate(45deg); 
@@ -94,7 +94,7 @@
 
 
 .container .material-symbols-outlined {
-    font-size: 80px;
+    font-size: 60px;
 }
 .box1:hover .symbol{
     color: var(--secondary-color);
@@ -120,8 +120,8 @@
 }
 
 .logo{
-    margin: 55px 0 0 8px;
-    height: 100px;
+    margin: 55px 0 0 12px;
+    height: 80px;
     
 }
 .margin{
