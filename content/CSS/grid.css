@@ -24,6 +24,9 @@
 .box1:hover{
     top: 5px;
     left: 5px;
+    
+    box-shadow: 5px 5px 10px rgb(148, 148, 148),
+                -5px -5px 10px rgb(148, 148, 148);
 }
 .rotate{
     transform: rotate(-45deg);
@@ -37,4 +40,17 @@
     margin-left: 40px;
     text-transform: uppercase;
     color: white;
+}
+.symbol{
+    margin: 40px 0 0 30px;    
+    color: rgb(0, 0, 0);
+    transition: ease 0.5s;
+}
+
+
+.container .material-symbols-outlined {
+    font-size: 80px;
+}
+.box1:hover .symbol{
+    color: rgb(192, 126, 5);
 }
