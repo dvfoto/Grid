@@ -1,15 +1,11 @@
 .container-grid{
     display: grid;
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr; 
     transform: rotate(45deg); 
     gap: 10px;
-    
-    overflow-y: hidden;
-    
-    overflow-x: hidden;
 }
 
 .box-header-1{
@@ -103,7 +99,7 @@
     color: white;
 }
 .symbol{
-    margin: 30px 0 0 20px;    
+    margin: 25px 0 0 20px;    
     color: rgb(0, 0, 0);
     transition: ease 0.5s;
 }
@@ -141,8 +137,31 @@
     
 }
 .margin{
-    margin: 40px 0 0px 45px;
+    margin: 25px 0 0px 35px;
 }
 .rotate .margin-right{
     margin: 35px 0 0 10px;
+}
+
+.box-bottom{
+    border: 2px solid var(--border-color);
+    border-radius: 0% 100% 100% 0% / 0% 0% 100% 100% ;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: ease 0.3s;
+}
+.box-bottom:hover{
+    border: 0px solid rgb(0, 0, 0, 0%);
+    top: -5px;
+    left: 5px;
+    
+    box-shadow: 5px 5px 10px var(--shadow-collor),
+                -5px -5px 10px var(--shadow-collor);
+}
+.box-bottom:hover .symbol{
+    color: var(--secondary-color);
+}
+.pading-2{
+    margin-top: 40px;
 }
