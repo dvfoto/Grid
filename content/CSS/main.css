@@ -9,6 +9,7 @@
     background-repeat:repeat-y;
     background-size:auto;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 /* 
 .main-tab{
