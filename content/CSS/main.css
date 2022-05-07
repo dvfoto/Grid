@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     background: linear-gradient(90deg, #FF2E4C 0%, #1E2A78 100%); 
-    background-repeat: no-repeat;
+    background-repeat:repeat-y;
     background-size: cover;
 }
 /* 
