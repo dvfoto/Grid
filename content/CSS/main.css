@@ -5,9 +5,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(44, 44, 44) 35%, rgb(68, 68, 68) 100%); 
+    background: linear-gradient(90deg, #FF2E4C 0%, #1E2A78 100%); 
 }
-
+/* 
 .main-tab{
     display: flex;
     flex-direction: row;
@@ -85,4 +85,4 @@
 h1{
     color: var(--main-color);
     padding: 30px;
-}
+} */

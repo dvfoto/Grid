@@ -12,9 +12,12 @@
     background-image: url(./img/10441.png.jpg);
     background-size: cover;
 }
-
+.box-header-2{
+    background-image: url(./img/104412.jpg);
+    background-size: cover;
+}
 .box1{
-    border: 2px solid white;
+    border: 2px solid var(--border-color);
     border-radius: 5px;
     position: relative;
     top: 0;
@@ -22,11 +25,53 @@
     transition: ease 0.3s;
 }
 .box1:hover{
+    border: 0px solid rgb(0, 0, 0, 0%);
     top: 5px;
     left: 5px;
     
-    box-shadow: 5px 5px 10px rgb(148, 148, 148),
-                -5px -5px 10px rgb(148, 148, 148);
+    box-shadow: 5px 5px 10px var(--shadow-collor),
+                -5px -5px 10px var(--shadow-collor);
+}
+.box-left{
+    border: 2px solid var(--border-color);
+    border-radius: 100% 0% 0% 100% / 0% 100% 0% 100% ;
+    position: relative;
+    top: 0;
+    right: 0;
+    transition: ease 0.3s;
+}
+.box-left:hover{
+    border: 0px solid rgb(0, 0, 0, 0%);
+    top: 5px;
+    right: 5px;
+    
+    box-shadow: 5px 5px 10px var(--shadow-collor),
+                -5px -5px 10px var(--shadow-collor);
+    
+
+}
+.box-left:hover .symbol{
+    color: var(--secondary-color); 
+}
+.box-right{
+    border: 2px solid var(--border-color);
+    border-radius: 0% 100% 100% 0% / 0% 100% 0% 100%  ;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: ease 0.3s;
+}
+.box-right:hover{
+    border: 0px solid rgb(0, 0, 0, 0%);
+    top: -5px;
+    left: 5px;
+    
+    box-shadow: 5px 5px 10px var(--shadow-collor),
+                -5px -5px 10px var(--shadow-collor);
+}
+.box-right:hover .symbol{
+    
+    color: var(--secondary-color);
 }
 .rotate{
     transform: rotate(-45deg);
@@ -52,5 +97,36 @@
     font-size: 80px;
 }
 .box1:hover .symbol{
-    color: rgb(192, 126, 5);
+    color: var(--secondary-color);
+}
+.first{
+    border: 2px solid var(--border-color);
+    border-radius: 100% 0% 100% 0% / 100% 100% 0% 0% ;
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: ease 0.3s;
+}
+.first:hover{
+    top: -5px;
+    left: -5px;
+    box-shadow: 5px 5px 10px var(--shadow-collor),
+                -5px -5px 10px var(--shadow-collor);
+}
+
+.pading{
+    height: 100px;
+}
+
+.logo{
+    margin: 55px 0 0 8px;
+    height: 100px;
+    
+}
+.margin{
+    margin: 40px 0 0px 45px;
+}
+.rotate .margin-right{
+    margin: 35px 0 0 10px;
 }
