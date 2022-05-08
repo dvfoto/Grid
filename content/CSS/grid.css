@@ -327,7 +327,7 @@ h3{
 }
 
 .logo{
-    margin: 40px 0 0 8px;
+    margin: 40px 0 0 20px;
     height: 60px;
     
 }
@@ -359,4 +359,41 @@ h3{
 }
 .pading-2{
     margin-top: 40px;
+}
+
+.about::before{
+    display: none;
+    content: '';
+    position:absolute;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px;
+    left: 0px;
+    top: 0px;
+    margin-top: 15px;
+    transform: rotate(-45deg);
+    opacity: 0;
+    background-image: url(./img/Untitled-1.png);
+    background-size: cover;
+    animation: laudas3 1s forwards;
+  }
+  @keyframes laudas3{
+    0% {
+        border-radius: 0px;
+        opacity: 0;
+        left: 0px;
+        top: 0px;
+
+    }
+    100%{
+        border-radius: 150px;
+        left: 0px;
+        top: -125px;
+        opacity: 1;
+    }
+
+  }
+  .about:hover::before{
+    display: inline;
 }
