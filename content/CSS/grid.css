@@ -9,7 +9,7 @@
 }
 
 .box-header-1{
-    background-image: url(./img/10441.png.jpg);
+    /* background-image: url(./img/10441.png.jpg); */
     background-size: cover;
 }
 .box-header-2{
@@ -17,11 +17,11 @@
     background-size: cover;
 }
 .box-header-3{
-    background-image: url(./img/104413.jpg);
+    /* background-image: url(./img/104413.jpg); */
     background-size: cover;
 }
 .box-header-4{
-    background-image: url(./img/104414.jpg);
+    /* background-image: url(./img/104414.jpg); */
     background-size: cover;
 }
 
@@ -36,6 +36,7 @@
     border-radius: 0;
     left: 0px;
     top: 0px;
+    opacity: 0;
     margin-top: 15px;
     background-image: url(./img/10441.png.jpg);
     background-size: cover;
@@ -48,11 +49,13 @@
   @keyframes laudas2 {
 
     0% {
+        opacity: 0;
         border-radius: 0px;
         top: 0px;
 
     }
     100%{
+        opacity: 1;
         border-radius: 15px;
         top: 95px;
     }
@@ -102,13 +105,14 @@
     border-radius: 0px;
     left: 0px;
     top: 0px;
+    opacity: 0;
     margin-top: 15px;
     /* transition: all ease 0.5s; */
     background-image: url(./img/10441.png.jpg);
     background-size: cover;
     
     animation: laudas1  20s linear infinite,
-                laudas 0.5s forwards;
+                laudas 1s forwards;
     
     
   }
@@ -116,12 +120,14 @@
   @keyframes laudas {
 
     0% {
+        opacity: 0;
         border-radius: 0px;
         left: 0px;
         top: 0px;
 
     }
     100%{
+        opacity: 1;
         border-radius: 15px;
 
         left: 40px;
@@ -144,6 +150,7 @@
     border-radius: 0px;
     left: 0px;
     top: 0px;
+    opacity: 0;
     margin-top: 15px;
     background-image: url(./img/10441.png.jpg);
     background-size: cover;
@@ -152,12 +159,14 @@
   }
   @keyframes laudas0{
     0% {
+        opacity: 0;
         border-radius: 0px;
         left: 0px;
         top: 0px;
 
     }
     100%{
+        opacity: 1;
         border-radius: 15px;
         left: 110px;
         top: -16px;
@@ -219,58 +228,112 @@ h3{
     font-size: 15px;
     margin: 37px 0 0 8px;
 }
-.box1{
-    border: 2px solid var(--border-color);
+.box2{
+    /* border: 2px solid var(--border-color); */
     border-radius: 5px;
     position: relative;
     top: 0;
     left: 0;
     transition: ease 0.3s;
+    box-shadow: -10px -10px 15px rgb(255, 255, 255,0.5),
+                10px 10px 15px rgb(70, 70, 70,0.12),
+                inset -10px -10px 15px rgb(255, 255, 255,0.5),
+                inset 10px 10px 15px rgb(70, 70, 70,0.12);
+    
+}
+.box2:hover{
+    border: 0px solid rgb(0, 0, 0, 0%);
+    top: 5px;
+    left: 5px;
+    
+    box-shadow: -10px -10px 15px rgb(255, 255, 255,0.5),
+                10px 10px 15px rgb(70, 70, 70,0.12),
+                inset -10px -10px 15px rgb(255, 255, 255,0.5),
+                inset 10px 10px 15px rgb(70, 70, 70,0.12);
+}
+
+.box1{
+    /* border: 2px solid var(--border-color); */
+    border-radius: 5px;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: ease 0.3s;
+    
 }
 .box1:hover{
     border: 0px solid rgb(0, 0, 0, 0%);
     top: 5px;
     left: 5px;
     
-    box-shadow: 5px 5px 10px var(--shadow-collor),
-                -5px -5px 10px var(--shadow-collor);
+    box-shadow: -10px -10px 15px rgb(255, 255, 255,0.5),
+                10px 10px 15px rgb(70, 70, 70,0.12);
 }
+
+
+
+
+
+
+/* ikonu hoveriai */
+
+
+.box2:hover .size{
+    color: rgb(177, 16, 16);
+}
+.box-right:hover .size2{
+    color: rgb(177, 16, 16);
+}
+
+
+/* ikonu hoveriai */
+
+
 .box-left{
-    border: 2px solid var(--border-color);
+    /* border: 2px solid var(--border-color); */
     border-radius: 100% 0% 0% 100% / 0% 100% 0% 100% ;
     position: relative;
     top: 0;
     right: 0;
     transition: ease 0.3s;
+    box-shadow: -10px -10px 15px rgb(255, 255, 255,0.5),
+                10px 10px 15px rgb(70, 70, 70,0.12),
+                inset -10px -10px 15px rgb(255, 255, 255,0.5),
+                inset 10px 10px 15px rgb(70, 70, 70,0.12);
 }
 .box-left:hover{
     border: 0px solid rgb(0, 0, 0, 0%);
     top: 5px;
     right: 5px;
-    
+/*     
     box-shadow: 5px 5px 10px var(--shadow-collor),
-                -5px -5px 10px var(--shadow-collor);
+                -5px -5px 10px var(--shadow-collor); */
     
 
 }
 .box-left:hover .symbol{
     color: var(--secondary-color); 
 }
+
 .box-right{
-    border: 2px solid var(--border-color);
+    /* border: 2px solid var(--border-color); */
     border-radius: 0% 100% 100% 0% / 0% 100% 0% 100%  ;
     position: relative;
     top: 0;
     left: 0;
     transition: ease 0.3s;
+    box-shadow: -10px -10px 15px rgb(255, 255, 255,0.5),
+    10px 10px 15px rgb(70, 70, 70,0.12),
+    inset -10px -10px 15px rgb(255, 255, 255,0.5),
+    inset 10px 10px 15px rgb(70, 70, 70,0.12);
 }
 .box-right:hover{
-    border: 0px solid rgb(0, 0, 0, 0%);
+    /* border: 0px solid rgb(0, 0, 0, 0%); */
     top: -5px;
     left: 5px;
-    
+/*     
     box-shadow: 5px 5px 10px var(--shadow-collor),
-                -5px -5px 10px var(--shadow-collor);
+                -5px -5px 10px var(--shadow-collor); */
 }
 .box-right:hover .symbol{
     
@@ -307,19 +370,23 @@ h3{
     color: var(--secondary-color);
 }
 .first{
-    border: 2px solid var(--border-color);
+    /* border: 2px solid var(--border-color); */
     border-radius: 100% 0% 100% 0% / 100% 100% 0% 0% ;
     
     position: relative;
     top: 0;
     left: 0;
     transition: ease 0.3s;
+    box-shadow: -10px -10px 15px rgb(255, 255, 255,0.5),
+                10px 10px 15px rgb(70, 70, 70,0.12),
+                inset -10px -10px 15px rgb(255, 255, 255,0.5),
+                inset 10px 10px 15px rgb(70, 70, 70,0.12);
 }
 .first:hover{
     top: -5px;
     left: -5px;
-    box-shadow: 5px 5px 10px var(--shadow-collor),
-                -5px -5px 10px var(--shadow-collor);
+    /* box-shadow: 5px 5px 10px var(--shadow-collor),
+                -5px -5px 10px var(--shadow-collor); */
 }
 
 .pading{

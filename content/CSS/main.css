@@ -1,14 +1,29 @@
 @import './variables.css';
 @import 'grid.css';
+@import '../fontawesome-free-6.1.1-web/css/fontawesome.min.css';
 
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(90deg, #99bcc4 0%, #08535d 50%, #02333c 100%); 
+    background-color: rgb(255, 255, 255);
+    /* background: linear-gradient(90deg, #99bcc4 0%, #08535d 50%, #02333c 100%);  */
     background-repeat: repeat-y;
     background-size:auto;
     overflow-x: hidden;
+}
+
+.size{
+    margin: 30px 0 0 20px;
+    font-size: 50px;
+    color: black;    
+    transform: all ease 2s;
+}
+
+.size2{
+    margin: 30px 0 0 5px;
+    font-size: 50px;
+    color: black;
 }
 /* 
 .main-tab{
