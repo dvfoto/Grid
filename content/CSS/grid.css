@@ -33,66 +33,36 @@
     width: 100px;
     height: 100px;
     border: 2px solid var(--border-color);
-    border-radius: 15px;
-    left: 0;
-    top:95px;
+    border-radius: 0;
+    left: 0px;
+    top: 0px;
     margin-top: 15px;
-    transition: all ease 0.5s;
-    background-image: url();
-
-
     background-image: url(./img/10441.png.jpg);
     background-size: cover;
-    animation: laudas1 10s infinite;
+
+    animation: laudas1 10s infinite,
+                laudas2 1s forwards;
   }
-  
-  @keyframes laudas1 {
+
+
+  @keyframes laudas2 {
 
     0% {
-        
-      
-      background-image: url(./img/104412.jpg);
-    }
-    10%{
+        border-radius: 0px;
+        top: 0px;
 
-        background-image: url(./img/104413.jpg);
     }
-
-    20%{
-        background-image: url(./img/104414.jpg);
+    100%{
+        border-radius: 15px;
+        top: 95px;
     }
-    
-    
-    30% {
-      
-        background-image: url(./img/10441.png.jpg);
-      
-    }
-    40% {
-        
-      
-        background-image: url(./img/104412.jpg);
-      }
-      50%{
-  
-          background-image: url(./img/104413.jpg);
-      }
-  
-      60%{
-          background-image: url(./img/104414.jpg);
-      }
-      
-      
-      100% {
-        
-          background-image: url(./img/10441.png.jpg);
-        
-      }
   }
-
+  
 .box-header-4:hover::before{
     display: inline;
 }
+
+
 
 
 /* jjjjjjjjjjjjjjjjjjj */
@@ -106,60 +76,14 @@
     border: 2px solid var(--border-color);
     border-radius: 15px;
     left: 0;
-    top:95px;
+    top: 0px;
     margin-top: 15px;
-    transition: all ease 0.5s;
-    background-image: url();
-
-
     background-image: url(./img/10441.png.jpg);
     background-size: cover;
-    animation: laudas1 10s infinite;
+    animation: laudas1 10s infinite,
+                laudas2 1s forwards;
   }
   
-  @keyframes laudas1 {
-
-    0% {
-        
-      
-      background-image: url(./img/104412.jpg);
-    }
-    10%{
-
-        background-image: url(./img/104413.jpg);
-    }
-
-    20%{
-        background-image: url(./img/104414.jpg);
-    }
-    
-    
-    30% {
-      
-        background-image: url(./img/10441.png.jpg);
-      
-    }
-    40% {
-        
-      
-        background-image: url(./img/104412.jpg);
-      }
-      50%{
-  
-          background-image: url(./img/104413.jpg);
-      }
-  
-      60%{
-          background-image: url(./img/104414.jpg);
-      }
-      
-      
-      100% {
-        
-          background-image: url(./img/10441.png.jpg);
-        
-      }
-  }
 
 .box-header-2:hover::before{
     display: inline;
@@ -175,72 +99,30 @@
     width: 100px;
     height: 100px;
     border: 2px solid var(--border-color);
-    border-radius: 15px;
+    border-radius: 0px;
     left: 0px;
     top: 0px;
     margin-top: 15px;
-    transition: all ease 0.5s;
-    background-image: url();
-
-
+    /* transition: all ease 0.5s; */
     background-image: url(./img/10441.png.jpg);
     background-size: cover;
-    -webkit-animation: laudas forwards 1s;
-    -webkit-animation: laudas1  20s infinite;
+    
+    animation: laudas1  20s linear infinite,
+                laudas 0.5s forwards;
+    
     
   }
-  
-  @-webkit-keyframes laudas1 {
+
+  @keyframes laudas {
 
     0% {
-        
-      
-      background-image: url(./img/104412.jpg);
-    }
-    10%{
-
-        background-image: url(./img/104413.jpg);
-    }
-
-    20%{
-        background-image: url(./img/104414.jpg);
-    }
-    
-    
-    30% {
-      
-        background-image: url(./img/10441.png.jpg);
-      
-    }
-    40% {
-        
-      
-        background-image: url(./img/104412.jpg);
-      }
-      50%{
-  
-          background-image: url(./img/104413.jpg);
-      }
-  
-      60%{
-          background-image: url(./img/104414.jpg);
-      }
-      
-      
-      100% {
-        
-          background-image: url(./img/10441.png.jpg);
-        
-      }
-  }
-  @-webkit-keyframes laudas {
-
-    0% {
+        border-radius: 0px;
         left: 0px;
         top: 0px;
 
     }
     100%{
+        border-radius: 15px;
 
         left: 40px;
         top: -55px;
@@ -259,19 +141,31 @@
     width: 100px;
     height: 100px;
     border: 2px solid var(--border-color);
-    border-radius: 15px;
-    left: 110px;
-    top: -16px;
+    border-radius: 0px;
+    left: 0px;
+    top: 0px;
     margin-top: 15px;
-    transition: all ease 0.5s;
-    background-image: url();
-
-
     background-image: url(./img/10441.png.jpg);
     background-size: cover;
-    animation: laudas1 10s infinite;
+    animation: laudas1 10s infinite,
+                laudas0 1s forwards;
   }
-  
+  @keyframes laudas0{
+    0% {
+        border-radius: 0px;
+        left: 0px;
+        top: 0px;
+
+    }
+    100%{
+        border-radius: 15px;
+        left: 110px;
+        top: -16px;
+    }
+
+  }
+
+
   @keyframes laudas1 {
 
     0% {
