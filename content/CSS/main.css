@@ -25,6 +25,22 @@
     font-size: 50px;
     color: black;
 }
+.size3{
+    margin: 30px 0 0 20px;
+    font-size: 50px;
+    color: black;
+}
+
+.h2-midle{
+    text-align: center;
+    font-size: 17px;
+    margin: 39px 0 0 4px ;
+
+}
+.h2-midle:hover{
+    color: var(--hover-color);
+
+}
 /* 
 .main-tab{
     display: flex;
