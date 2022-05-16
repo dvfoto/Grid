@@ -26,7 +26,7 @@
     color: black;
 }
 .size3{
-    margin: 30px 0 0 20px;
+    margin: 30px 0 0 30px;
     font-size: 50px;
     color: black;
 }
@@ -38,6 +38,31 @@
 
 }
 .h2-midle:hover{
+    color: var(--hover-color);
+
+}
+.h2-midle-left{
+    text-align: center;
+    font-size: 17px;
+    margin: 39px 0 0 25px ;
+}
+.h2-midle-left:hover{
+    color: var(--hover-color);
+
+}
+.h2-midle-right{
+    text-align: center;
+    font-size: 17px;
+    margin: 39px 0 0 -40px ;
+}
+
+.h2-centrinis{
+    font-size: 17px;
+    margin:  0 0 0 0px ;
+    padding: 0;
+
+}
+.h2-centrinis:hover{
     color: var(--hover-color);
 
 }
