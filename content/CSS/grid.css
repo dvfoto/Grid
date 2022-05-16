@@ -11,82 +11,83 @@ font-family: 'Noto Sans JP', sans-serif;
 }
 
 .box-header-1{
-    /* background-image: url(./img/10441.png.jpg); */
+    background-image: url(./img/104413.jpg);
     background-size: cover;
+    border-radius: 10px;
+}
+.box-header-1:hover{
+    animation: laudas1 10s infinite;
+    transition: all ease;
 }
 .box-header-2{
-    background-image: url(./img/104412.jpg);
-    background-size: cover;
+    background-image: url(./img/104414.jpg);
+    background-size: cover;    
+    border-radius: 10px;
 }
 .box-header-3{
-    /* background-image: url(./img/104413.jpg); */
-    background-size: cover;
+    background-image: url(./img/10441.png.jpg);
+    background-size: cover;    
+    border-radius: 10px;
 }
 .box-header-4{
-    /* background-image: url(./img/104414.jpg); */
-    background-size: cover;
+    background-image: url(./img/104412.jpg);
+    background-size: cover;    
+    border-radius: 10px;
 }
 
 
-.box-header-4::before{
+/* 
+.box-header-1::before{
     display: none;
-    content: '';
+    content: 'Jaunikio rytas';
     position:absolute;
-    width: 100px;
-    height: 100px;
-    border: 2px solid var(--border-color);
-    border-radius: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+    padding: 10px 20px 10px 15px;
+    font-size: 20px;
+    transform: rotate(-45deg);
+    color: var(--hover-color);
     left: 0px;
     top: 0px;
     opacity: 0;
     margin-top: 15px;
-    background-image: url(./img/10441.png.jpg);
-    background-size: cover;
-
-    animation: laudas1 10s infinite,
-                laudas2 1s forwards;
+    transition: all ease 0.5s;
+   
+    
+    animation:
+                laudas 1s forwards;
   }
 
-
-  @keyframes laudas2 {
-
-    0% {
-        opacity: 0;
-        border-radius: 0px;
-        top: 0px;
-
-    }
-    100%{
-        opacity: 1;
-        border-radius: 15px;
-        top: 95px;
-    }
-  }
   
-.box-header-4:hover::before{
+.box-header-1:hover::before{
     display: inline;
 }
 
-
-
-
-/* jjjjjjjjjjjjjjjjjjj */
-
-.box-header-2::before{
+  .box-header-2::before{
     display: none;
-    content: '';
+    content: 'Ceremonija';
     position:absolute;
-    width: 100px;
-    height: 100px;
-    border: 2px solid var(--border-color);
-    border-radius: 15px;
-    left: 0;
+    border-radius: 5px;
+    padding: 10px 20px 10px 0px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;    
+    transform: rotate(-45deg);
+    color: var(--hover-color);
+    left: 0px;
     top: 0px;
+    opacity: 0;
     margin-top: 15px;
-    background-image: url(./img/10441.png.jpg);
-    background-size: cover;
-    animation: laudas1 10s infinite,
-                laudas2 1s forwards;
+    transition: all ease 0.5s;
+   
+    
+    animation:
+                laudas 1s forwards;
   }
   
 
@@ -94,71 +95,90 @@ font-family: 'Noto Sans JP', sans-serif;
     display: inline;
 }
 
-/* ffffffffffffffffffffffffff */
-
-
 .box-header-3::before{
     display: none;
-    content: '';
+    content: 'Vestuvių fotosesijos';
     position:absolute;
-    width: 100px;
-    height: 100px;
-    border: 2px solid var(--border-color);
-    border-radius: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    transform: rotate(-45deg);
+    color: var(--hover-color);
     left: 0px;
     top: 0px;
+    
+    padding: 5px 20px 10px 0px;
+    font-size: 20px;
     opacity: 0;
     margin-top: 15px;
-    /* transition: all ease 0.5s; */
-    background-image: url(./img/10441.png.jpg);
-    background-size: cover;
+    transition: all ease 0.5s;
+   
     
-    animation: laudas1  20s linear infinite,
+    animation:
                 laudas 1s forwards;
     
     
   }
 
-  @keyframes laudas {
-
-    0% {
-        opacity: 0;
-        border-radius: 0px;
-        left: 0px;
-        top: 0px;
-
-    }
-    100%{
-        opacity: 1;
-        border-radius: 15px;
-
-        left: 40px;
-        top: -55px;
-    }
-  }
+ 
 
 .box-header-3:hover::before{
     display: inline;
 }
 
-
-.box-header-1::before{
+.box-header-4::before{
     display: none;
-    content: '';
+    content: 'Nuotakos rytas';
     position:absolute;
-    width: 100px;
-    height: 100px;
-    border: 2px solid var(--border-color);
-    border-radius: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    transform: rotate(-45deg);
+    color: var(--hover-color);
+    
+    padding: 15px 20px 10px 10px;
+    font-size: 20px;
     left: 0px;
     top: 0px;
     opacity: 0;
     margin-top: 15px;
-    background-image: url(./img/10441.png.jpg);
-    background-size: cover;
-    animation: laudas1 10s infinite,
-                laudas0 1s forwards;
+    transition: all ease 0.5s;
+   
+    
+    animation:
+                laudas 1s forwards;
   }
+
+
+  
+  
+.box-header-4:hover::before{
+    display: inline;
+} */
+
+
+
+
+/* jjjjjjjjjjjjjjjjjjj */
+
+
+
+/* ffffffffffffffffffffffffff */
+
+
+
+
+
+
+
+
+
+
+
   @keyframes laudas0{
     0% {
         opacity: 0;
@@ -176,6 +196,36 @@ font-family: 'Noto Sans JP', sans-serif;
 
   }
 
+  @keyframes laudas2 {
+
+    0% {
+        opacity: 0;
+        border-radius: 0px;
+        top: 0px;
+
+    }
+    100%{
+        opacity: 1;
+        border-radius: 15px;
+        top: 95px;
+    }
+  }
+
+  @keyframes laudas {
+
+    0% {
+        opacity: 0;
+        left: 0px;
+        top: 0px;
+
+    }
+    100%{
+        opacity: 1;
+
+        left: 0px;
+        top: 0px;
+    }
+  }
 
   @keyframes laudas1 {
 
@@ -221,9 +271,6 @@ font-family: 'Noto Sans JP', sans-serif;
       }
   }
 
-.box-header-1:hover::before{
-    display: inline;
-}
 
 
 h3{
@@ -271,6 +318,22 @@ h3{
     box-shadow: -10px -10px 15px rgb(255, 255, 255,0.5),
                 10px 10px 15px rgb(70, 70, 70,0.12);
 }
+.first{
+    border-radius: 100% 0% 100% 0% / 100% 100% 0% 0% ;
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: ease 0.3s;
+    box-shadow: -10px -10px 15px rgb(255, 255, 255,0.5),
+                10px 10px 15px rgb(70, 70, 70,0.12),
+                inset -10px -10px 15px rgb(255, 255, 255,0.5),
+                inset 10px 10px 15px rgb(70, 70, 70,0.12);
+}
+.first:hover{
+    top: -5px;
+    left: -5px;
+}
 
 .first:hover .box2{
     border: 0px solid rgb(0, 0, 0, 0%);
@@ -305,7 +368,6 @@ h3{
 
 
 .box-left{
-    /* border: 2px solid var(--border-color); */
     border-radius: 100% 0% 0% 100% / 0% 100% 0% 100% ;
     position: relative;
     top: 0;
@@ -319,11 +381,7 @@ h3{
 .box-left:hover{
     border: 0px solid rgb(0, 0, 0, 0%);
     top: 5px;
-    right: 5px;
-/*     
-    box-shadow: 5px 5px 10px var(--shadow-collor),
-                -5px -5px 10px var(--shadow-collor); */
-    
+    right: 5px;   
 
 }
 .box-left:hover .symbol{
@@ -331,7 +389,6 @@ h3{
 }
 
 .box-right{
-    /* border: 2px solid var(--border-color); */
     border-radius: 0% 100% 100% 0% / 0% 100% 0% 100%  ;
     position: relative;
     top: 0;
@@ -343,12 +400,9 @@ h3{
     inset 10px 10px 15px rgb(70, 70, 70,0.12);
 }
 .box-right:hover{
-    /* border: 0px solid rgb(0, 0, 0, 0%); */
     top: -5px;
     left: 5px;
-/*     
-    box-shadow: 5px 5px 10px var(--shadow-collor),
-                -5px -5px 10px var(--shadow-collor); */
+    color: var(--hover-color);
 }
 .box-right:hover .symbol{
     
@@ -384,25 +438,7 @@ h3{
 .box1:hover .symbol{
     color: var(--secondary-color);
 }
-.first{
-    /* border: 2px solid var(--border-color); */
-    border-radius: 100% 0% 100% 0% / 100% 100% 0% 0% ;
-    
-    position: relative;
-    top: 0;
-    left: 0;
-    transition: ease 0.3s;
-    box-shadow: -10px -10px 15px rgb(255, 255, 255,0.5),
-                10px 10px 15px rgb(70, 70, 70,0.12),
-                inset -10px -10px 15px rgb(255, 255, 255,0.5),
-                inset 10px 10px 15px rgb(70, 70, 70,0.12);
-}
-.first:hover{
-    top: -5px;
-    left: -5px;
-    /* box-shadow: 5px 5px 10px var(--shadow-collor),
-                -5px -5px 10px var(--shadow-collor); */
-}
+
 
 .pading{
     height: 100px;
@@ -441,40 +477,6 @@ h3{
 }
 .pading-2{
     margin-top: 40px;
-}
-
-.about::before{
-    display: none;
-    content: '';
-    position:absolute;
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    border-radius: 0px;
-    left: 0px;
-    top: 0px;
-    margin-top: 15px;
-    transform: rotate(-45deg);
-    opacity: 0;
-    background-image: url(./img/Untitled-1.png);
-    background-size: cover;
-    animation: laudas3 1s forwards;
-  }
-  @keyframes laudas3{
-    0% {
-        border-radius: 0px;
-        opacity: 0;
-        left: 0px;
-        top: 0px;
-
-    }
-    100%{
-        border-radius: 150px;
-        left: 0px;
-        top: -125px;
-        opacity: 1;
-    }
-
 }
 
 
@@ -537,20 +539,17 @@ h3{
 .about:hover::before{
   display: inline;
 }
-  
-  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
 
 
 /* pop menu end */
 
 .gridas{
-    /* display: flex;
-    flex-direction: column; */
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end:  5;
   background-color: transparent;
+  border-radius: 15px;
   transition: all 1s ease;
   background-image: url(./img/10441.png.jpg);
   background-size: cover;
@@ -559,9 +558,11 @@ h3{
 }
 
 .gridas:hover::before{
-    content: '';
+    content: 'Sukurkime Jūsų Meilės pasaką kartu';
     position:absolute;
     
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
   text-align: center;
     width: 50%;
     height: 2px;
@@ -626,3 +627,48 @@ h3{
     padding: 8px;
 }
 
+@media (min-width: 1200px){
+    .first::before{
+        content: '';
+        position:absolute;
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        left: 35px;
+        top: 445px;
+        margin-top: 15px;
+        opacity: 1;
+        transition: ease 0.3s;
+    box-shadow: -10px -10px 15px rgb(255, 255, 255,0.5),
+                10px 10px 15px rgb(70, 70, 70,0.12),
+                inset -10px -10px 15px rgb(255, 255, 255,0.5),
+                inset 10px 10px 15px rgb(70, 70, 70,0.12);
+        
+    }
+
+    .first::after{
+        content: '';
+        position:absolute;
+        text-align: center;
+        background-image: url(./img/Pasion.png);
+        background-size: 300px;
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        left: 460px;
+        top: 20px;
+        margin-top: 15px;
+        opacity: 1;
+        transition: ease 0.3s;
+        box-shadow: -10px -10px 15px rgb(255, 255, 255,0.5),
+                10px 10px 15px rgb(70, 70, 70,0.12),
+                inset -10px -10px 15px rgb(255, 255, 255,0.5),
+                inset 10px 10px 15px rgb(70, 70, 70,0.12);
+        
+        transition: all ease 0.3s;
+        
+    }
+
+}
