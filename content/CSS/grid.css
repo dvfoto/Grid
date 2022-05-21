@@ -14,25 +14,45 @@ font-family: 'Noto Sans JP', sans-serif;
     background-image: url(./img/104413.jpg);
     background-size: cover;
     border-radius: 10px;
+    filter: grayscale(1);
 }
 .box-header-1:hover{
     animation: laudas1 10s infinite;
-    transition: all ease;
+    transition: all 0.3s ease;
+    filter: grayscale(0);
 }
 .box-header-2{
     background-image: url(./img/104414.jpg);
     background-size: cover;    
     border-radius: 10px;
+     filter: grayscale(1);
+}
+.box-header-2:hover{
+    animation: laudas1 10s infinite;
+    transition: all 0.3s ease;
+     filter: grayscale(0);
 }
 .box-header-3{
     background-image: url(./img/10441.png.jpg);
     background-size: cover;    
     border-radius: 10px;
+     filter: grayscale(1);
+}
+.box-header-3:hover{
+    animation: laudas1 10s infinite;
+    transition: all 0.3s ease;
+     filter: grayscale(0);
 }
 .box-header-4{
     background-image: url(./img/104412.jpg);
     background-size: cover;    
     border-radius: 10px;
+     filter: grayscale(1);
+}
+.box-header-4:hover{
+    animation: laudas1 10s infinite;
+    transition: all 0.3s ease;
+     filter: grayscale(0);
 }
 
 
@@ -553,68 +573,15 @@ h3{
   transition: all 1s ease;
   background-image: url(./img/10441.png.jpg);
   background-size: cover;
+  filter: grayscale(1);
   animation: laudas1 10s infinite;
               
 }
-
-.gridas:hover::before{
-    content: 'Sukurkime Jūsų Meilės pasaką kartu';
-    position:absolute;
+.gridas:hover{
     
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-  text-align: center;
-    width: 50%;
-    height: 2px;
-    bottom: 2px;
-    right: 2px;
-    background:var(--hover-color);
-    z-index: 1; 
-    animation: laudas13 1s;
-    animation-fill-mode: forwards;
-    border-radius: 5px 0 5px 5px;
+  filter: grayscale(0);
 }
-    @keyframes laudas13 {
-        0%{
-            width: 0%;
-            
 
-        }
-
-        100%{
-            width: 98%;
-        }
-    
-} 
-
-.gridas:hover::after{
-    content: '';
-    position:absolute;
-    
-  text-align: center;
-    width: 2px;
-    height: 0;
-    bottom: 3px;
-    right: 2px;
-    transform: rotate(0deg);
-    background:var(--hover-color);
-    z-index: 1; 
-    animation: laudas12 1s;
-    animation-fill-mode: forwards;
-    border-radius: 5px;
-}
-    @keyframes laudas12 {
-        0%{
-            height: 0%;
-            
-
-        }
-
-        100%{
-            height: 98%;
-        }
-    
-} 
 
 .flex-center{
     display: flex;
@@ -671,4 +638,67 @@ h3{
         
     }
 
+
+
+.gridas:hover::before{
+    
+    content: 'Sukurkime Jūsų Meilės pasaką kartu';
+    position:absolute;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0px;
+  text-align: center;
+    width: 0%;
+    height: 2px;
+    bottom: 2px;
+    right: 2px;
+    background:var(--hover-color);
+    z-index: 1; 
+    animation: laudas13 1s;
+    animation-fill-mode: forwards;
+    border-radius: 5px 0 5px 5px;
+}
+    @keyframes laudas13 {
+        0%{
+            font-size: 0px;
+            width: 0px;
+            
+
+        }
+
+        100%{
+            font-size: 20px;
+            width: 350px;
+        }
+    
+} 
+
+.gridas:hover::after{
+    content: '';
+    position:absolute;
+    
+  text-align: center;
+    width: 2px;
+    height: 0;
+    bottom: 3px;
+    right: 2px;
+    transform: rotate(0deg);
+    background:var(--hover-color);
+    z-index: 1; 
+    animation: laudas12 1s;
+    animation-fill-mode: forwards;
+    border-radius: 5px;
+}
+    @keyframes laudas12 {
+        0%{
+            height: 0px;
+            
+
+        }
+
+        100%{
+            height: 350px;
+        }
+    
+} 
 }

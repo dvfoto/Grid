@@ -1,6 +1,7 @@
 @import './variables.css';
 @import 'grid.css';
 @import '../fontawesome-free-6.1.1-web/css/fontawesome.min.css';
+@import './galerry.css';
 
 .container{
     display: flex;
