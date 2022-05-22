@@ -1,7 +1,10 @@
 @import './variables.css';
-@import 'grid.css';
+@import './grid.css';
 @import '../fontawesome-free-6.1.1-web/css/fontawesome.min.css';
-@import './galerry.css';
+@import './Gallery/css/demo.css';
+@import './Gallery/css/style.css';
+@import './header.css';
+
 
 .container{
     display: flex;
@@ -13,6 +16,7 @@
     background-size:auto;
     overflow-x: hidden;
 }
+
 
 .size{
     margin: 30px 0 0 20px;
