@@ -55,7 +55,13 @@ font-family: 'Noto Sans JP', sans-serif;
      filter: grayscale(0);
 }
 
-
+.youtube-div{
+    width: 70%;
+}
+.youtube{
+    width: 100%;
+    height: 20em;
+}
 /* 
 .box-header-1::before{
     display: none;
@@ -638,7 +644,9 @@ h3{
         
     }
 
-
+    .youtube-div{
+        width: 50%;
+    }
 
 .gridas:hover::before{
     
