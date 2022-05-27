@@ -56,11 +56,24 @@ font-family: 'Noto Sans JP', sans-serif;
 }
 
 .youtube-div{
-    width: 70%;
+    position: relative;
+    width: 80%;
+    padding-bottom: 50%; 
+    height: 0;
+    
+    
 }
 .youtube{
-    width: 100%;
-    height: 20em;
+    position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.rotate-360:hover{
+    transition: all 0.5s;
+    transform: rotate(330deg);
 }
 /* 
 .box-header-1::before{
@@ -644,9 +657,7 @@ h3{
         
     }
 
-    .youtube-div{
-        width: 50%;
-    }
+    
 
 .gridas:hover::before{
     
