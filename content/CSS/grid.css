@@ -71,8 +71,49 @@ font-family: 'Noto Sans JP', sans-serif;
   height: 100%;
 }
 
-/* animacijos--------------------------------------------------- */
+.container .btn-fix{
 
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 100px;
+    right: 5px;
+    color: black;
+    border: 1px solid rgb(191, 191, 191);
+    text-align: center;
+}
+.container .btn-fix i{  
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    
+    line-height: 30px;
+}
+.container .btn-fix:hover{
+border: 1px solid transparent;
+}
+
+.container .btn-fix:hover i{
+   
+    color: var(--hover-color);
+    animation: zoom 2s infinite;
+    transition: all 0.3s ease;
+}
+
+/* animacijos--------------------------------------------------- */
+@keyframes zoom{
+    0%{
+        font-size: 30px;
+    }
+    50%{
+        font-size: 5px;
+    }
+    100%{
+        font-size: 30px;
+    }
+
+}
   @keyframes laudas0{
     0% {
         opacity: 0;
@@ -577,4 +618,7 @@ h3{
         }
     
 } 
+.container .btn-fix{
+    right: 20px;
+    }
 }
