@@ -187,7 +187,7 @@ color: #000;
     }
 }
 
-@media (min-width: 1600px){
+@media (min-width: 1500px){
     .dropdown-1{
         display: none;
     }
@@ -209,7 +209,7 @@ color: #000;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        gap: 50px;
+        gap: 25px;
         font-weight: bold;
     
     }

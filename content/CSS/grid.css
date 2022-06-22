@@ -228,8 +228,7 @@ h3{
 }
 .box2:hover{
     
-    top: 5px;
-    left: 5px;
+    top: -5px;
     
    
 }
@@ -263,10 +262,10 @@ h3{
                 inset -10px -10px 15px rgb(255, 255, 255,0.5),
                 inset 10px 10px 15px rgb(70, 70, 70,0.12);
 }
-.first:hover{
+/* .first:hover{
     top: -5px;
     left: -5px;
-}
+} */
 
 .first:hover .box2{
     border: 0px solid rgb(0, 0, 0, 0%);
